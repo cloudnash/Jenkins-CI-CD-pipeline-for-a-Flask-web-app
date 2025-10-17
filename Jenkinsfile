@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'git@github.com:cloudnash/YOUR_REPO.git'
+                git branch: 'main', url: 'https://github.com/cloudnash/Jenkins-CI-CD-pipeline-for-a-Flask-web-app.git'
             }
         }
 
