@@ -13,3 +13,17 @@ A minimal Flask app with Jenkins pipeline to build Docker image and deploy to re
 1. Configure Jenkins with SSH credentials and a pipeline job pointing to this repo.
 2. Ensure remote server has Docker installed and SSH public key added.
 3. Push commits to `main` to trigger CI/CD.
+
+
+'''
+
+flask-ci-cd-jenkins/
+├── app.py
+├── requirements.txt
+├── Dockerfile
+├── README.md
+├── .dockerignore
+└── Jenkinsfile
+
+
+'''
