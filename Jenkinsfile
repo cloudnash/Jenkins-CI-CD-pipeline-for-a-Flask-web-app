@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'node1' }  // run on your slave EC2
+    agent { label 'n1' }  // run on your slave EC2
 
     stages {
         stage('Checkout') {
